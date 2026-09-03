@@ -1,9 +1,10 @@
-# 📊 E-commerce Data Cleaning & Visualization
+# E-commerce Data Cleaning & Visualization
 
 An end-to-end data project: cleaning a messy e-commerce dataset and turning it into clear, 
 insight-driven visualizations using Python.
 
-## 📁 Project Structure
+## Project Structure
+```
 ecommerce-data-project/
 ├── data/
 │   ├── messy_ecommerce_data.csv
@@ -16,14 +17,15 @@ ecommerce-data-project/
 ├── 01_data_cleaning.ipynb
 ├── 02_data_visualization.ipynb
 └── README.md
-## 🛠️ Tools Used
+```
+## Tools Used
 
 - **Python**
 - **Pandas** — data cleaning, transformation, and aggregation
 - **Matplotlib** — data visualization
 - **Jupyter Notebook**
 
-## 🧹 Data Cleaning (`01_data_cleaning.ipynb`)
+## Data Cleaning (`01_data_cleaning.ipynb`)
 
 Cleaned a raw, messy e-commerce dataset (~663 rows) by handling:
 - Missing values (group-based median imputation)
@@ -33,7 +35,7 @@ Cleaned a raw, messy e-commerce dataset (~663 rows) by handling:
 - Categorical value standardization
 - Datetime conversion
 
-## 📈 Data Visualization (`02_data_visualization.ipynb`)
+## Data Visualization (`02_data_visualization.ipynb`)
 
 Explored the cleaned dataset to answer real business questions, visualized with customized 
 matplotlib charts (titles, labels, colors, gridlines, annotations).
